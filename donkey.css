@@ -1,0 +1,172 @@
+ body {
+  background-image: url("/dog_wall3.jpg");
+  background-size: cover; 
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0; 
+  font-family: 'Times New Roman', Times, serif;
+ 
+}
+
+.thedogy {
+  
+ padding-right:800px;
+  font-size: larger;
+  
+  
+}
+
+
+
+.main {
+  color: white;
+  padding-top: 15%;
+  padding-left: 100px;
+  
+     
+}
+
+
+
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.tag {
+ color:white;
+  font-size: 20px;
+font-weight: bold;
+  width: 640px;
+  padding-left: 255px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 10%;
+
+  
+}  
+
+ button:hover{
+  color: #111111
+}
+h1 {
+  color: #333;
+  font-family: tahoma;
+  font-size: 3rem;
+  font-weight: 100;
+  line-height: 1.5;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+h1 span {
+  font-size: 40px;
+  margin-left: 10px;
+}
+
+.message {
+  margin-left: -7%;
+  background-color: rgb(51, 254, 0);
+  color: #333;
+  display: block;
+  font-weight: 900;
+  overflow: hidden;
+  position: absolute;
+  top: 0.2rem;
+  left: 270px;
+  animation: openclose 2s ease-in-out infinite; 
+ 
+  border-radius: 3px;
+}
+
+.word1, .word2, .word3 {
+  font-family: tahoma;
+ 
+}
+
+
+
+
+
+@keyframes openclose {
+  0% {
+    top: 0.2rem;
+    width: 0;
+  }
+  5% {
+    width: 0;
+  }
+  15% {
+    width: 230px;
+  }
+  30% {
+    top: 0.2rem;
+    width: 230px;
+  }
+  33% {
+    top: 0.2rem;
+    width: 0;
+  }
+  35% {
+    top: 0.2rem;
+    width: 0;
+  }
+  38% {
+    top: -4.5rem;
+    
+  }
+  48% {
+    top: -4.5rem;
+    width: 190px;
+  }
+  62% {
+    top: -4.5rem;
+    width: 190px;
+  }
+  66% {
+    top: -4.5rem;
+    width: 190;
+    text-indent: 0;
+  }
+  71% {
+    top: -9rem;
+    width: 0;
+    text-indent: 5px;
+  }
+  86% {
+    top: -9rem;
+    width: 285px;
+  }
+  95% {
+    top: -9rem;
+    width: 285px;
+  }
+  98% {
+    top: -9rem;
+    width: 285px;
+    text-indent: 5px;
+  }
+  100% {
+    top: 0;
+    width: 0;
+    text-indent: 0;
+  }
+}
+.span2{
+  padding-left: 110px;
+} 
+.span1{
+  padding-right: 100px;
+}
+
+
+
